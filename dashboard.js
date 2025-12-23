@@ -1,7 +1,6 @@
 let productionChart;
 let currentCategory = 'total';
 
-// Colores de identidad por categoría (ESTOS SON LOS COLORES BASE)
 const categoryColors = {
   total: { border: '#1a8825', bg: 'rgba(200, 230, 201, 0.5)' },
   calles: { border: '#0288d1', bg: 'rgba(2, 136, 209, 0.5)' },
@@ -12,7 +11,6 @@ const categoryColors = {
 
 (() => {
   'use strict'
-
   const days31 = Array.from({ length: 31 }, (_, i) => `${i + 1}`);
   const days90 = Array.from({ length: 90 }, (_, i) => `${i + 1}`);
 

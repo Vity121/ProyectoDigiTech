@@ -9,26 +9,20 @@
 body { background-color: #f8fafc; font-family: 'Inter', sans-serif; }
 .navbar { background: linear-gradient(90deg, #134e1a 0%, #1a8825 100%) !important; }
 
-/* Estilos Base de Botones */
+/* Botones Sincronizados con Gráficas */
 .btn-group .btn { border-width: 2px; font-weight: 700; font-size: 0.65rem; background: white; transition: 0.2s; }
-
-/* Colores Específicos por Botón (Coinciden con dashboard.js) */
 .btn-total { border-color: #1a8825; color: #1a8825; }
 .btn-total.active, .btn-total:hover { background: #1a8825 !important; color: white !important; }
-
 .btn-calles { border-color: #0288d1; color: #0288d1; }
 .btn-calles.active, .btn-calles:hover { background: #0288d1 !important; color: white !important; }
-
 .btn-ciudadano { border-color: #fbc02d; color: #fbc02d; }
 .btn-ciudadano.active, .btn-ciudadano:hover { background: #fbc02d !important; color: white !important; }
-
 .btn-empresas { border-color: #7b1fa2; color: #7b1fa2; }
 .btn-empresas.active, .btn-empresas:hover { background: #7b1fa2 !important; color: white !important; }
-
 .btn-ropa { border-color: #009688; color: #009688; }
 .btn-ropa.active, .btn-ropa:hover { background: #009688 !important; color: white !important; }
 
-/* Estilos de Tabla */
+/* Tabla e Indicadores */
 .arrow { display: inline-block; transition: transform 0.3s; font-size: 0.7rem; margin-left: 8px; color: #64748b; }
 .province-row.expanded .arrow { transform: rotate(90deg); color: var(--main-green); }
 .province-row { cursor: pointer; }
